@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Certy</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="image/logo.ico"">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="JS/main.js"></script>
+    <script src="JS/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/55cc5ddde9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <div class="menu row no-margin">
+          <div class="left-menu col-lg-5 col-md-12">
+            <div class="logo">
+              <img src="image/logo.svg" />
+              <span>.Certy</span>
+            </div>
+          </div>
+          <div class="right-menu col-lg-5 col-md-12">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="portfolio.html"
+                  >portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 no-padding no-margin">
+        <div class="top-side-bar">
+          <ul class="ul-center">
+            <li class="nav-item">
+              <a title="HOME" href="index.html#about">
+                <img class="tsb-small-avatar" src="image/avatar.png" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a title="EXPERIENCE" href="index.html#experience">
+                <i class="far fa-save top-side-bar-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a title="PORTFOLIO" href="index.html#portfolio">
+                <i class="fa fa-picture-o top-side-bar-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a title="REFERENCES" href="index.html#reference">
+                <i class="far fa-pause-circle top-side-bar-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a title="CONTACT" href="index.html#contact">
+                <i class="far fa-envelope top-side-bar-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a title="BOLG" href="#">
+                <i class="far fa-paper-plane top-side-bar-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container no-padding">
+        <div class="row no-margin">
+          <div class="col-lg-3 col-md-12 no-padding">
+            <div class="left-content">
+              <div class="info-card">
+                <img class="avatar-img" src="image/avatar.png" />
+                <div class="card-intro text-center">
+                  <h2>OLA LOWE</h2>
+                  <p>Florist | Decorator</p>
+                </div>
+                <div class="social-icon-wrap">
+                  <ul class="ul-center">
+                    <li class="nav-item">
+                      <a><i class="fab fa-facebook-f social"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a><i class="fab fa-twitter social"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a><i class="fab fa-google-plus-g social"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a><i class="fab fa-instagram social"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a><i class="fab fa-pinterest social"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="btn-download">DOWNLOAD RESUME</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-12 row no-padding no-margin">
+            <div class="main-content col-lg-11 col-md-12 no-padding">
+              <div class="section-content">
+                <div id="portfolio" class="text-content">
+                  <h2>PORTFOLIO</h2>
+                  <div class="portfolio-button-wrap" id="filter-button">
+                    <button data-filter="*" class="active portfolio-button">
+                      <b>all</b>
+                    </button>
+                    <button data-filter=".photography" class="portfolio-button">
+                      <b>photography</b>
+                    </button>
+                    <button data-filter=".design" class="portfolio-button">
+                      <b>design</b>
+                    </button>
+                  </div>
+                  <div class="portfolio-wrap">
+                    <div class="portfolio-img-wrap photography">
+                      <img
+                        src="image/prj-01.jpg"
+                        class="portfolio-img"
+                        alt=""
+                      />
+                      <div class="middle">
+                        <div class="text-wrap-center">
+                          <h4 class="text">STUNGER RISE</h4>
+                          <div class="text">
+                            Accessories Here you can find the best computer
+                            monitor, printer, scanner, speaker, projector.
+                            hardware and more
+                          </div>
+                          <button class="btn-view-more">View More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-img-wrap design">
+                      <img
+                        src="image/prj-02.jpg"
+                        class="portfolio-img"
+                        alt=""
+                      />
+                      <div class="middle">
+                        <div class="text-wrap-center">
+                          <h4 class="text">STUNGER RISE</h4>
+                          <div class="text">
+                            Accessories Here you can find the best computer
+                            monitor, printer, scanner, speaker, projector.
+                            hardware and more
+                          </div>
+                          <button class="btn-view-more">View More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-img-wrap photography">
+                      <img
+                        src="image/prj-03.jpg"
+                        class="portfolio-img"
+                        alt=""
+                      />
+                      <div class="middle">
+                        <div class="text-wrap-center">
+                          <h4 class="text">STUNGER RISE</h4>
+                          <div class="text">
+                            Accessories Here you can find the best computer
+                            monitor, printer, scanner, speaker, projector.
+                            hardware and more
+                          </div>
+                          <button class="btn-view-more">View More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-img-wrap design">
+                      <img
+                        src="image/prj-04.jpg"
+                        class="portfolio-img"
+                        alt=""
+                      />
+                      <div class="middle">
+                        <div class="text-wrap-center">
+                          <h4 class="text">STUNGER RISE</h4>
+                          <div class="text">
+                            Accessories Here you can find the best computer
+                            monitor, printer, scanner, speaker, projector.
+                            hardware and more
+                          </div>
+                          <button class="btn-view-more">View More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-img-wrap photography">
+                      <img
+                        src="image/prj-05.jpg"
+                        class="portfolio-img"
+                        alt=""
+                      />
+                      <div class="middle">
+                        <div class="text-wrap-center">
+                          <h4 class="text">STUNGER RISE</h4>
+                          <div class="text">
+                            Accessories Here you can find the best computer
+                            monitor, printer, scanner, speaker, projector.
+                            hardware and more
+                          </div>
+                          <button class="btn-view-more">View More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-img-wrap design">
+                      <img
+                        src="image/prj-06.jpg"
+                        class="portfolio-img"
+                        alt=""
+                      />
+                      <div class="middle">
+                        <div class="text-wrap-center">
+                          <h4 class="text">STUNGER RISE</h4>
+                          <div class="text">
+                            Accessories Here you can find the best computer
+                            monitor, printer, scanner, speaker, projector.
+                            hardware and more
+                          </div>
+                          <button class="btn-view-more">View More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-img-wrap photography">
+                      <img
+                        src="image/prj-01.jpg"
+                        class="portfolio-img"
+                        alt=""
+                      />
+                      <div class="middle">
+                        <div class="text-wrap-center">
+                          <h4 class="text">STUNGER RISE</h4>
+                          <div class="text">
+                            Accessories Here you can find the best computer
+                            monitor, printer, scanner, speaker, projector.
+                            hardware and more
+                          </div>
+                          <button class="btn-view-more">View More</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="footer-text">Ola Resume @ All Rights Reserved 2016</p>
+            </div>
+            <div class="col-lg-1 col-md-12" style="padding: 0px;">
+              <div class="right-side-bar">
+                <div class="side-bar">
+                  <ul class="nav ul-center">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link tooltiptext"
+                        data-toggle="tooltip"
+                        data-placement="right"
+                        title="HOME"
+                        href="index.html#about"
+                      >
+                        <img class="small-avatar" src="image/avatar.png" />
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link tooltiptext"
+                        data-toggle="tooltip"
+                        data-placement="right"
+                        title="EXPERIENCE"
+                        href="index.html#experience"
+                      >
+                        <i class="far fa-save side-bar-icon"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link tooltiptext"
+                        data-toggle="tooltip"
+                        data-placement="right"
+                        title="PORTFOLIO"
+                        href="index.html#portfolio"
+                      >
+                        <i class="fa fa-picture-o side-bar-icon"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link tooltiptext"
+                        data-toggle="tooltip"
+                        data-placement="right"
+                        title="REFERENCES"
+                        href="#reference"
+                      >
+                        <i class="far fa-pause-circle side-bar-icon"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link tooltiptext"
+                        data-toggle="tooltip"
+                        data-placement="right"
+                        title="CONTACT"
+                        href="index.html#contact"
+                      >
+                        <i class="far fa-envelope side-bar-icon"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link tooltiptext"
+                        data-toggle="tooltip"
+                        data-placement="right"
+                        title="BOLG"
+                      >
+                        <i class="far fa-paper-plane side-bar-icon"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg id="bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
+      <polygon class="pol" points="0,455,693,352,173,0,92,0,0,71"></polygon>
+    </svg>
+    <svg id="bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633">
+      <polygon points="0,0,633,0,633,536"></polygon>
+    </svg>
+  </body>
+</html>
