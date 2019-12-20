@@ -41,6 +41,10 @@ $(document).ready(function() {
     itemSelector: ".portfolio-img-wrap"
   });
 
+  $(".portfolio-wrap").imagesLoaded(function() {
+    $isotopeContainer.isotope('layout');
+  });
+
   $(".portfolio-button-wrap button").click(function() {
     $(".portfolio-button-wrap .active").removeClass("active");
     $(this).addClass("active");
