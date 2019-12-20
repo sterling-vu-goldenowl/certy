@@ -29,8 +29,8 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="css/animate.css">
-    <script src="JS/main.js"></script>
-    <script src="JS/wow.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.js"></script>
     <script>
       new WOW().init();
     </script>
@@ -140,147 +140,84 @@
           <div class="col-lg-9 col-md-12 row no-padding no-margin">
             <div class="main-content col-lg-11 col-md-12 no-padding">
               <div class="section-content">
-                <div id="portfolio" class="text-content">
-                  <h2>PORTFOLIO</h2>
-                  <div class="portfolio-button-wrap" id="filter-button">
-                    <button data-filter="*" class="active portfolio-button">
-                      <b>all</b>
-                    </button>
-                    <button data-filter=".photography" class="portfolio-button">
-                      <b>photography</b>
-                    </button>
-                    <button data-filter=".design" class="portfolio-button">
-                      <b>design</b>
-                    </button>
+                <div id="contact" class="text-content">
+                  <h2>CONTACT ME</h2>
+                  <div class="contact-icon-wrap">
+                    <ul class="nav contact-icon">
+                      <li class="nav-item">
+                        <a><i class="fab fa-facebook-f social color-blue"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a><i class="fab fa-twitter social color-blue"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          ><i class="fab fa-google-plus-g social color-blue"></i
+                        ></a>
+                      </li>
+                      <li class="nav-item">
+                        <a><i class="fab fa-instagram social color-blue"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a><i class="fab fa-pinterest social color-blue"></i></a>
+                      </li>
+                    </ul>
+                    <h4 class="font-weight-bold">
+                      FELL FREE TO CONTACT ME THE CORE OF YOUR MARKETING
+                    </h4>
                   </div>
-                  <div class="portfolio-wrap">
-                    <div class="portfolio-img-wrap photography">
-                      <img
-                        src="image/prj-01.jpg"
-                        class="portfolio-img"
-                        alt=""
+                  <div class="container">
+                    <div class="form-wrap row">
+                      <p class="label-wrap col-lg-3 col-md-12">Your Name</p>
+                      <input
+                        type="text"
+                        class="input-wrap col-lg-8 col-md-12"
+                        required
+                        id="txtname"
                       />
-                      <div class="middle">
-                        <div class="text-wrap-center">
-                          <h4 class="text">STUNGER RISE</h4>
-                          <div class="text">
-                            Accessories Here you can find the best computer
-                            monitor, printer, scanner, speaker, projector.
-                            hardware and more
-                          </div>
-                          <button class="btn-view-more">View More</button>
-                        </div>
-                      </div>
                     </div>
-                    <div class="portfolio-img-wrap design">
-                      <img
-                        src="image/prj-02.jpg"
-                        class="portfolio-img"
-                        alt=""
+                    <div class="form-wrap row">
+                      <p class="label-wrap col-lg-3 col-md-12">Your Email</p>
+                      <input
+                        type="text"
+                        class="input-wrap col-lg-8 col-md-12"
+                        required
+                        id="txtemail"
                       />
-                      <div class="middle">
-                        <div class="text-wrap-center">
-                          <h4 class="text">STUNGER RISE</h4>
-                          <div class="text">
-                            Accessories Here you can find the best computer
-                            monitor, printer, scanner, speaker, projector.
-                            hardware and more
-                          </div>
-                          <button class="btn-view-more">View More</button>
-                        </div>
-                      </div>
                     </div>
-                    <div class="portfolio-img-wrap photography">
-                      <img
-                        src="image/prj-03.jpg"
-                        class="portfolio-img"
-                        alt=""
+                    <div class="form-wrap row">
+                      <p class="label-wrap col-lg-3 col-md-12">Subject</p>
+                      <input
+                        type="text"
+                        class="input-wrap col-lg-8 col-md-12"
+                        required
+                        id="subject"
                       />
-                      <div class="middle">
-                        <div class="text-wrap-center">
-                          <h4 class="text">STUNGER RISE</h4>
-                          <div class="text">
-                            Accessories Here you can find the best computer
-                            monitor, printer, scanner, speaker, projector.
-                            hardware and more
-                          </div>
-                          <button class="btn-view-more">View More</button>
-                        </div>
-                      </div>
                     </div>
-                    <div class="portfolio-img-wrap design">
-                      <img
-                        src="image/prj-04.jpg"
-                        class="portfolio-img"
-                        alt=""
-                      />
-                      <div class="middle">
-                        <div class="text-wrap-center">
-                          <h4 class="text">STUNGER RISE</h4>
-                          <div class="text">
-                            Accessories Here you can find the best computer
-                            monitor, printer, scanner, speaker, projector.
-                            hardware and more
-                          </div>
-                          <button class="btn-view-more">View More</button>
-                        </div>
-                      </div>
+                    <div class="form-wrap row">
+                      <p class="label-wrap col-lg-3 col-md-12">Your Comment</p>
+                      <textarea
+                        id="comment"
+                        class="col-lg-8 col-md-12"
+                        rows="6"
+                        required
+                      ></textarea>
                     </div>
-                    <div class="portfolio-img-wrap photography">
-                      <img
-                        src="image/prj-05.jpg"
-                        class="portfolio-img"
-                        alt=""
-                      />
-                      <div class="middle">
-                        <div class="text-wrap-center">
-                          <h4 class="text">STUNGER RISE</h4>
-                          <div class="text">
-                            Accessories Here you can find the best computer
-                            monitor, printer, scanner, speaker, projector.
-                            hardware and more
-                          </div>
-                          <button class="btn-view-more">View More</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-img-wrap design">
-                      <img
-                        src="image/prj-06.jpg"
-                        class="portfolio-img"
-                        alt=""
-                      />
-                      <div class="middle">
-                        <div class="text-wrap-center">
-                          <h4 class="text">STUNGER RISE</h4>
-                          <div class="text">
-                            Accessories Here you can find the best computer
-                            monitor, printer, scanner, speaker, projector.
-                            hardware and more
-                          </div>
-                          <button class="btn-view-more">View More</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-img-wrap photography">
-                      <img
-                        src="image/prj-01.jpg"
-                        class="portfolio-img"
-                        alt=""
-                      />
-                      <div class="middle">
-                        <div class="text-wrap-center">
-                          <h4 class="text">STUNGER RISE</h4>
-                          <div class="text">
-                            Accessories Here you can find the best computer
-                            monitor, printer, scanner, speaker, projector.
-                            hardware and more
-                          </div>
-                          <button class="btn-view-more">View More</button>
-                        </div>
-                      </div>
+                    <div class="form-wrap row no-margin">
+                      <button class="contact-submit-button">
+                        Post Your Comment
+                      </button>
                     </div>
                   </div>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3329558865685!2d106.66519071487714!3d10.785790761969883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed22b5f8907%3A0x54b69beb3a9daeea!2zNTM4IEPDoWNoIE3huqFuZyBUaMOhbmcgVMOhbSwgUGjGsOG7nW5nIDExLCBRdeG6rW4gMywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1576148063671!5m2!1svi!2s"
+                    width="100%"
+                    height="300"
+                    style="margin-top: 30px;"
+                    frameborder="0"
+                    style="border:0;"
+                    allowfullscreen=""
+                  ></iframe>
                 </div>
               </div>
               <p class="footer-text">Ola Resume @ All Rights Reserved 2016</p>
@@ -328,7 +265,7 @@
                         data-toggle="tooltip"
                         data-placement="right"
                         title="REFERENCES"
-                        href="#reference"
+                        href="index.html#reference"
                       >
                         <i class="far fa-pause-circle side-bar-icon"></i>
                       </a>
